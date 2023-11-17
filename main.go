@@ -96,7 +96,7 @@ func main() {
 
 	r := mux.NewRouter()
 
-	movies = append(movies, Movie{Id: "1001", Isbn: "436637", Title: "Harry Potter", Director: &Director{FirstName: "jk", LastName: "rolling"}})
+	movies = append(movies, Movie{Id: "1001", Isbn: "436637", Title: "Harry Potter", Director: &Director{FirstName: "jk", LastName: "rowling"}})
 	movies = append(movies, Movie{Id: "1002", Isbn: "763563", Title: "killers of the flower moon", Director: &Director{FirstName: "Martin", LastName: "Scorsese"}})
 
 	//define different API
